@@ -1,0 +1,72 @@
+.achive{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: #333;
+}
+.finance{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f3d352;
+    color: #000;
+    padding: 20px 23px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.finance p{
+    font-size: 18px;
+}
+.lastupdate{
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+.new-achievements{
+    margin-bottom: 50px;
+}
+
+.custom-slider .slick-prev {
+    left: 644px;
+    z-index: 9;
+    top: 333px;
+}
+.custom-slider .slick-next {
+    right: 644px !important;
+    top: 333px;
+}
+/* Specific styles for the custom slider instance */
+.custom-slider .slick-prev:before, .custom-slider .slick-next:before {
+    color: #000; /* Change this to your desired color */
+    background: #ffd102; /* Change this to your desired background color */
+    border-radius: 0px !important;
+}
+
+@media (max-width: 768px){
+    .finance {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #f3d352;
+        color: #000;
+        padding: 20px 23px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .finance p {
+        font-size: 10px;
+    }
+    .custom-slider .slick-next {
+        right: 147px !important;
+        top: 316px;
+    }
+    .custom-slider .slick-prev {
+        left: 148px;
+        z-index: 9;
+        top: 316px;
+    }
+}

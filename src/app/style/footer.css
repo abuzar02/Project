@@ -1,0 +1,222 @@
+.headlinSection{
+    float: left;
+    width: 100%;
+    background-image: url(../../../public/images/bg-4.jpg);
+    padding: 35px 0;
+}
+.skill-btn{
+    background-color: transparent;
+    border: 2px solid #FFF;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.2s linear;
+    font-size: 12px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.headlineflex{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.headlinetext{
+    width: 80%;
+ 
+}
+.headlinetext p{
+    font-size: 13px;
+    text-align: justify;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 21px;
+}
+.headlinetext h5{
+    font-size: 17px;
+    color: #333;
+}
+.headlineright{
+    width: 20%;
+    position: relative;
+}
+.dropdown-list{
+    background: #fff;
+    padding: 10px;
+    width: 210px;
+    border-radius: 10px;
+    position: absolute;
+    top: 44px;
+}
+.dropdown-list li{
+    margin-bottom: 10px;
+}
+.relatimage{
+    width: 170px;
+    height: 72px;
+}
+.relatflex{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+.footer-bg{
+    width: 100%;
+    background-color: #24252a;
+    padding-top: 10px;
+    color: #fff;
+    padding: 40px 0px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.first-footer{
+    width: 50%;
+    border-right: 1px solid #cccccc1c;
+    margin-right: 30px;
+}
+.first-footer h3{
+    color: #f8ce15;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.first-footer p{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
+}
+.office{
+    width: 25%;
+}
+.office h3{
+    color: #f8ce15;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.office p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: -20px;
+
+}
+.quick-menu{
+    width: 25%;
+    border-right: 1px solid #cccccc1c;
+    margin-right: 30px;
+}
+.quick-menu h3{
+    color: #f8ce15;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.quick-menu ul li a{
+    float: left;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+}
+.extend{
+    display: flex;
+    align-items: center;
+    padding: 0px 50px 0px 0px ;
+    gap: 20px;
+}
+.copyright{
+    background-color: #24252a;
+    padding: 15px 0px;
+    border-top: 1px solid #cccccc1c;
+}
+.copy-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copy-text{
+    font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+}
+.copy-text a{
+    color: #B5392F;
+}
+.icon-box{
+    color: #fff;
+    display: flex;
+    gap: 17px;
+    font-size: 14px;
+    align-items: center;
+}
+.icon-box a{
+    font-size: 24px;
+    color: #5B83B8;
+}
+
+@media (max-width: 768px){
+    .headlineflex {
+        display: block;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .headlineright {
+        width: 100%;
+        position: relative;
+        margin-top: 10px;
+    }
+    .relatflex {
+        display: block;
+        align-items: center;
+        justify-content: end;
+        gap: 50px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .footer-flex {
+        display: block;
+    }
+    .first-footer {
+        width: 100%;
+        border: none;
+        margin-right: 30px;
+    }
+    .extend {
+        display: block;
+        align-items: center;
+        padding: 0px 0px 0px 0px !important;
+        gap: 20px;
+    }
+    .first-footer p {
+        font-size: 15px;
+        font-weight: 300;
+        text-align: left;
+        font-family: 'Lato', sans-serif;
+        line-height: 24px;
+    }
+    .quick-menu {
+        width: 100%;
+        border-right: none;
+        margin-right: 30px;
+        margin-top: 15px;
+    }
+    .office {
+        width: 100%;
+    }
+    
+}
