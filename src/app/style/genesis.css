@@ -1,0 +1,94 @@
+.bgheimage {
+    float: left;
+    width: 100%;
+    background: url(../../../public/images/innerbg.jpg);
+    background-size: cover;
+    background-position: center right;
+    height: 150px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.gallery-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallery-flex ul{
+    display: flex;
+    gap: 10px;
+}
+.gallery-flex ul li a{
+    color: #fff;
+    font-size: 14px;
+}
+.color-active{
+    color: #f3a021 !important;
+}
+.gallery-flex h2{
+    color: #fff;
+    float: left;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.photoGallery h2{
+    font-size: 17px;
+    background-color: #f5f5f5;
+    padding: 15px;
+    font-weight: 400;
+    border-left: 5px solid #FBC805;
+    margin-bottom: 15px;
+    margin-top: 32px;
+    overflow: hidden;
+}
+.innerAbout1{
+    border: 1px dashed #dcdcdc;
+    float: left;
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+.innerAbout1 p{
+    text-align: justify;
+    font-size: 15px;
+    color: #9c9c9c;
+    margin: 0;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.inner-flex{
+    display: flex;
+    gap: 20px;
+}
+.sercal{
+    width: 50%;
+}
+.align{
+    text-align: center !important;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.list ul{
+    width: 33%;
+}
+.major{
+    font-size: 16px;
+    font-weight: 400;
+}
+.list ul li{
+    display: block;
+    padding: 5px 0 5px 15px;
+    list-style: none;
+    position: relative;
+    color: #9c9c9c;
+    font-size: 14px;
+    margin-right: 5px;
+}

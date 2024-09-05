@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-      domains: ['www.mudra.org.in'], // Yeh domain se images allow hogi
-    },
-  };
-  
-  export default nextConfig;
-  
+  images: {
+    domains: ['www.mudra.org.in', 'via.placeholder.com'], // Combine all domains into one array
+  },
+};
+
+export default nextConfig;

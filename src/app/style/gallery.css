@@ -87,4 +87,29 @@
     padding-top: 60px;
     padding-bottom: 60px;
     color: #fff;
+    margin-bottom: 40px;
+}
+.gallery-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallery-flex ul{
+    display: flex;
+    gap: 10px;
+}
+.gallery-flex ul li a{
+    color: #fff;
+    font-size: 14px;
+}
+.color-active{
+    color: #f3a021 !important;
+}
+.gallery-flex h2{
+    color: #fff;
+    float: left;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
 }

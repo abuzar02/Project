@@ -103,9 +103,9 @@ const Navbar = () => {
             <li className="dropdown">
               <Link href="#">About Us <GoPlus /></Link>
               <ul className="dropdown-content">
-                <li><Link className="atre" href="#">Vision</Link></li>
-                <li><Link className="atre" href="#">Genesis and Role of MUDRA</Link></li>
-                <li><Link className="atre" href="#">Board Of Directors</Link></li>
+                <li><Link className="atre" href="/vision">Vision</Link></li>
+                <li><Link className="atre" href="/gnesis">Genesis and Role of MUDRA</Link></li>
+                <li><Link className="atre" href="/board">Board Of Directors</Link></li>
                 <li><Link className="atre" href="#">Management Team</Link></li>
               </ul>
             </li>

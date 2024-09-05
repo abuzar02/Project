@@ -11,39 +11,42 @@ import Link from 'next/link';
 
 
 export default () => (
-    <>
+  <>
 
     <div className='bgheimage'>
-        <div className='container'>
-        <h2>Gallery</h2>
-        <ul>
-          <li><Link href='/'>Home</Link></li>
-          <li><Link href='/'>Gallery</Link></li>
-        </ul>
+      <div className='container'>
+        <div className='gallery-flex'>
+          <h2>Gallery</h2>
+          <ul>
+            <li><Link href='/'>Home</Link></li>
+            /
+            <li><Link className='color-active' href='#'>Gallery</Link></li>
+          </ul>
         </div>
+      </div>
     </div>
- <div className='containerr'>
-     <Tabs>
-    <TabList>
-      <Tab>MUDRA Inauguration</Tab>
-      <Tab>Awards</Tab>
-      <Tab>Conferences</Tab>
-      <Tab>Programmes</Tab>
-    </TabList>
+    <div className='containerr'>
+      <Tabs>
+        <TabList>
+          <Tab>MUDRA Inauguration</Tab>
+          <Tab>Awards</Tab>
+          <Tab>Conferences</Tab>
+          <Tab>Programmes</Tab>
+        </TabList>
 
-    <TabPanel>
-        <Parent/>
-    </TabPanel>
-    <TabPanel>
-      <Award/>
-    </TabPanel>
-    <TabPanel>
-        <Confident/>
-    </TabPanel>
-    <TabPanel>
-      <Program/>
-    </TabPanel>
-  </Tabs>
- </div>
- </>
+        <TabPanel>
+          <Parent />
+        </TabPanel>
+        <TabPanel>
+          <Award />
+        </TabPanel>
+        <TabPanel>
+          <Confident />
+        </TabPanel>
+        <TabPanel>
+          <Program />
+        </TabPanel>
+      </Tabs>
+    </div>
+  </>
 );

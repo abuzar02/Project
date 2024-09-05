@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Accordion from './Accordion';
 import accordionData from './accordionData';
 import '../style/accordion.css';
+import Link from 'next/link';
 
 const FAQPage = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -15,10 +16,20 @@ const FAQPage = () => {
 
   return (
     <>
-  
+    <div className='bgheimage'>
+      <div className='container'>
+        <div className='gallery-flex'>
+          <h2>Gallery</h2>
+          <ul>
+            <li><Link href='/'>Home</Link></li>
+            /
+            <li><Link className='color-active' href='#'>Faq</Link></li>
+          </ul>
+        </div>
+      </div>
+    </div>
     
     <div className='containeraa'>
-      <h1>FAQ</h1>
      
       {accordionData.map((item, index) => (
    
