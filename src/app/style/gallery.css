@@ -45,6 +45,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: all.3s;
 }
 .overlay{
     background-color: rgb(98 93 93 / 23%);
@@ -57,12 +58,15 @@
     font-size: 25px;
     color: #fff;
     display: none;
+    transition: all.3s;
 }
 .mainImage:hover img{
     transform: scale(1.1);
+    transition: all.3s;
 }
 .mainImage:hover .overlay{
     display: block;
+    transition: all.3s;
 }
 .photoGallery h2{
     font-size: 17px;
@@ -112,4 +116,10 @@
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 500;
+}
+.thumbnail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
