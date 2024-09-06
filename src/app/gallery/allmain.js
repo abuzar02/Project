@@ -61,11 +61,10 @@
 
 "use client";
 import React, { useState } from 'react';
-// Import the new lightbox CSS
-import Lightbox from 'yet-another-react-lightbox'; // Import the new Lightbox library
-import '../style/gallery.css'; // Import your custom styles
-import { IoSearchSharp } from "react-icons/io5"; // Import search icon
-
+import Lightbox from 'yet-another-react-lightbox'; 
+import '../style/gallery.css'; 
+import { IoSearchSharp } from "react-icons/io5"; 
+import'yet-another-react-lightbox/styles.css'
 const LightboxComponent = ({ images }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);

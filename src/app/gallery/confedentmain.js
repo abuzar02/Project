@@ -61,7 +61,7 @@
 
 "use client";
 import React, { useState } from 'react';
-
+import'yet-another-react-lightbox/styles.css'
 import Lightbox from 'yet-another-react-lightbox';
 import '../style/gallery.css';
 import { IoSearchSharp } from "react-icons/io5";
